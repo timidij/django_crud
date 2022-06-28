@@ -12,7 +12,7 @@ from django.views.generic.list import ListView
 class PostListView (ListView):
     model = Post
     template_name = 'post_list.html'
-    # success_url ="/"
+    success_url ="/"
   
 
 class PostCreateView(CreateView):
